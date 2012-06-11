@@ -1,0 +1,27 @@
+/* ===== Primary Styles ========================================================
+   Author: Mike Korcynski
+   ========================================================================== */
+.navbar {
+	background-image: none;
+	background-color: #74b446;
+	border-top:thick double #4B9123;
+}
+.navbar-inner {
+	background-color: #74b446;
+	background-image: none;
+}
+.navbar .brand {
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

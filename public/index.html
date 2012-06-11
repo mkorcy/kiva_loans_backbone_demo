@@ -1,0 +1,102 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<!--
+  This template dervived from http://www.initializr.com/ Start an HTML5 project in 15 seconds!
+  NOTE: Updates are being posted to the following requestb.in:
+    http://requestb.in/1jnfo0y1
+    This bin will keep the last 20 requests made to it and remain available for the next 48 hours. However, during 
+    beta the data store might be cleared at any time, so treat bins as highly ephemeral.
+-->
+
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Kiva Loans Demo</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style>
+	body {
+	  padding-top: 60px;
+	  padding-bottom: 40px;
+	}  
+  .tr { text-align: right }
+	</style>
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+</head>
+<body class="none">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Kiva API and Backbone.js Demo</a>          
+        </div>
+      </div>
+    </div>
+
+    <div class="container">      
+      <div class="row">
+        <div class="span12">
+            <table class="table table-striped table-bordered table-condensed">
+              <thead>
+                <tr>
+                  <th>Loan</th>
+                  <th>Name</th>
+                  <th>Status</th>
+                  <th>Amount</th>
+                  <th>Country</th>
+                  <th>Pledge</th>
+                </tr>          
+              </thead>
+              <tbody id="loans">
+              </tbody>
+            </table>
+            <div id="loanDetails" class="modal hide">
+              <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">×</button>
+               <h3 id="modal_title">Modal header</h3>
+              </div>
+              <div class="modal-body">
+                <p id="modal_description">One fine body…</p>
+              </div>
+              <div class="modal-footer">
+                <a href="#" class="btn btn-primary" data-dismiss="modal">Close</a>    
+              </div>
+            </div>
+
+        </div>       
+      </div>
+
+      <hr>
+      <footer>
+        <p>Mike Korcynski / http://www.coderoost.com</p>
+      </footer>
+
+    </div> <!-- /container -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="core/underscore-min.js"></script>
+<script src="core/backbone-min.js"></script>
+<script src="core/backbone.validations.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+<script src="js/libs/bootstrap/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script src="models/KivaLoan.js"></script>
+<script src="views/KivaLoanView.js"></script>
+<script src="views/KivaLoansView.js"></script>
+<script src="collections/KivaLoans.js"></script>
+<script src="router.js"></script>
+<script src="application.js"></script>
+</body>
+</html>
