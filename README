@@ -1,0 +1,35 @@
+README
+
+This application is running at:
+http://kivabackbonejs-example.herokuapp.com/
+
+The Requestb.in for this app is at:
+http://requestb.in/1jnfo0y1?inspect
+
+A screencast of this app running is available at:
+http://screencast.com/t/L2MGwzbB3aM
+
+To Deploy this app:
+
+OPTION 1:
+On a mac with Python installed you can do this:
+
+cd to <Your Directory Tree>/kiva_loans/public
+
+and run
+
+python -m SimpleHTTPServer
+
+OPTION 2:
+
+
+Links that were useful when working on this:
+https://github.com/documentcloud/backbone/wiki/Tutorials%2C-blog-posts-and-example-sites
+https://github.com/n-time/backbone.validations
+http://twitter.github.com/bootstrap/javascript.html#modals
+http://stackoverflow.com/questions/10420986/overriding-backbone-js-comparator
+http://stackoverflow.com/questions/5096549/how-to-override-backbone-sync
+http://documentcloud.github.com/backbone/#Collection-comparator
+http://www.kiva.org/
+http://www.cloudspokes.com/challenges/1543
+http://api.kivaws.org/v1/loans/newest.json
