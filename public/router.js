@@ -7,11 +7,12 @@ window.KivaLoansApp = new (Backbone.Router.extend({
   initialize: function(){
     this.kivaLoans = new KivaLoans();
     this.loansView = new KivaLoansView({collection: this.kivaLoans});
-    this.loansView.render();
+    $('#loans').html(this.loansView.el);
+//    this.loansView.render();
   },
 
   index: function(){
-    $('#loans').html(this.loansView.el);
+    //$('#loans').html(this.loansView.el);
     this.kivaLoans.fetch();
   },
 
