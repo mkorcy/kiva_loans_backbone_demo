@@ -10,7 +10,6 @@ window.KivaLoansApp = new (Backbone.Router.extend({
     $('#loans').html(this.loansView.el);
 //    this.loansView.render();
   },
-
   index: function(){
     //$('#loans').html(this.loansView.el);
     this.kivaLoans.fetch();
