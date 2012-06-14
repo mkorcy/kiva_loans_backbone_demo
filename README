@@ -20,7 +20,22 @@ and run
 
 python -m SimpleHTTPServer
 
+app will be available at 'http://localhost:8000'
+
 OPTION 2:
+
+User foreman and Heroku toolbelt.
+
+You can install Heroku Toolbelt here:
+https://toolbelt.heroku.com/
+
+cd to <Your Directory Tree>/kiva_loans
+
+run 'npm install'
+
+run 'foreman start'
+
+app will be available at 'http://localhost:5000'
 
 
 Links that were useful when working on this:

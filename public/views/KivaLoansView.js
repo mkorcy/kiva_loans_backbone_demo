@@ -16,8 +16,8 @@ window.KivaLoansView = Backbone.View.extend({
     this.collection.forEach(this.addOne, this);
   },
 
-  addOne: function(todoItem){
-    var loanView = new KivaLoanView({model: todoItem});
+  addOne: function(loan){
+    var loanView = new KivaLoanView({model: loan});
 
     //normally you would probably see this.$el but we're appending to the table body here.
     $('tbody').append(loanView.render().el); 
