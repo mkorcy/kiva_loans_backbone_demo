@@ -28,7 +28,7 @@ window.KivaLoan = Backbone.Model.extend({
     	if (method == "update")
     	{
     		//we don't have a server so we're going to post to a bin on requestb.in
-    		$.post("http://requestb.in/1jnfo0y1", {
+    		$.post("http://requestb.in/mitn2wmi", {
    			 json: {id: model.get('id'), pledge : model.get('pledge') }
 			});
     		
